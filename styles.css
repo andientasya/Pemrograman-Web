@@ -1,0 +1,178 @@
+/* Reset & General Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Arial', sans-serif;
+    background-color: #fdf1e4;
+    background-image: url('kiri pojok.png'), url('kanan pojok.png'); 
+    background-position: left bottom 15px, right top 15px; 
+    background-repeat: no-repeat, no-repeat; 
+    background-size: 200px 200px, 200px 200px; 
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Warna putih dengan sedikit transparansi */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d97a5b;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.login-btn {
+    background-color: #fcebd3;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #333;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/* Main Content Styling */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    position: relative;
+}
+
+/* Text Section */
+.text-section {
+    max-width: 50%;
+}
+
+.text-section h1 {
+    font-size: 48px;
+    color: #333;
+}
+
+.text-section h1 span {
+    color: #f28c54;
+}
+
+.text-section p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+}
+
+/* CTA Buttons */
+.cta-buttons {
+    margin-top: 30px;
+}
+
+.cta-buttons .btn {
+    background-color: #f28c54;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.cta-buttons .btn-secondary {
+    background-color: transparent;
+    color: #f28c54;
+    border: 2px solid #f28c54;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* Image Section */
+.image-section {
+    position: relative;
+}
+
+.pizza-image {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: -30px; /* Naikkan sedikit */
+    right: 30px;
+}
+
+/* Popular Dishes Section */
+.popular-dishes {
+    margin-top: 40px;
+}
+
+/* Dish Grid */
+.dish-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Dish Item Styling */
+.dish-item {
+    text-align: center;
+    max-width: 150px;
+    background-color: white; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.dish-item img {
+    width: 100%;
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 15px;
+}
+
+
+.dish-item p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-top: 1px solid #ddd; 
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+}
+
+.social-media img {
+    width: 40px; 
+    height: auto; 
+}
